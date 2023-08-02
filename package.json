@@ -9,7 +9,7 @@
 		"dev": "nodemon src/server.ts",
 		"build": "tsc",
 		"migrate": "prisma migrate dev",
-		"start": "node src/server.ts"
+		"start": "node dist/server.js"
 	},
 	"keywords": [],
 	"author": "",
